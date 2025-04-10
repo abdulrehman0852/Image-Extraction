@@ -25,3 +25,14 @@ This script extracts all embedded images from an Excel workbook (`.xlsx`) and re
 Install the required third-party library:
 ```bash
 pip install openpyxl
+
+
+
+project/
+├── my.xlsx
+├── extractor.py
+├── extracted_images/
+│   ├── cat.png
+│   ├── dog.png
+│   ├── cat_1.png
+
